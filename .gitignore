@@ -1,0 +1,25 @@
+# Bỏ qua môi trường ảo
+env/
+venv/
+.venv/
+
+# Bỏ qua file .env
+.env
+
+# Bỏ qua các file/thu mục của IDE
+.idea/
+.vscode/
+
+# Bỏ qua các file tạm của Python
+__pycache__/
+*.pyc
+
+
+# Bỏ qua file log
+*.log
+
+# Bỏ qua các file build
+build/
+dist/
+*.egg-info/
+
