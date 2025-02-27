@@ -101,9 +101,9 @@ Triển khai trên **Heroku, Render, AWS, DigitalOcean**. Thiết lập biến m
 ---
 
 ## 🎉 Liên hệ
-👨‍💻 **Tác giả**: _Your Name_
-📧 **Email**: your.email@example.com
-📂 **GitHub**: [Your GitHub](https://github.com/your-username)
+👨‍💻 **Tác giả**: Phương Đại Thắng
+📧 **Email**: phuongdaithang2004@gmail.com
+📂 **GitHub**: [Your GitHub](https://github.com/PhuongDaiThang)
 
 ---
 🚀 **Happy Coding!** 🚀
