@@ -36,8 +36,8 @@ SECRET_KEY = 'django-insecure-158t80-j!khvja#x=xa$pc7hqi%c%!x)0ajxorjz@z(_jdms5q
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", "False") == "True"
-
 ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "mci-test-backend-intern-pdt.onrender.com").split(",")
+CSRF_TRUSTED_ORIGINS = [f"https://{host}" for host in ALLOWED_HOSTS if host]
 
 
 # Application definition

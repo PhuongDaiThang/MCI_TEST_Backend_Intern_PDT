@@ -96,7 +96,7 @@ Mặc định server chạy tại **http://127.0.0.1:8000**.
 
 ## 🌐 Triển khai lên Server
 
-Triển khai trên **Heroku, Render, AWS, DigitalOcean**. Thiết lập biến môi trường (`SECRET_KEY, DB_*`), cài đặt Gunicorn + Nginx nếu cần.
+Triển khai trên **Render **. Thiết lập biến môi trường (`DEBUG=False,SECRET_KEY, DB_*,ALLOWED_HOSTS`), cài đặt Gunicorn + Nginx nếu cần.
 
 ---
 
