@@ -103,7 +103,7 @@ Triển khai trên **Heroku, Render, AWS, DigitalOcean**. Thiết lập biến m
 ## 🎉 Liên hệ
 👨‍💻 **Tác giả**: Phương Đại Thắng
 📧 **Email**: phuongdaithang2004@gmail.com
-📂 **GitHub**: [Your GitHub](https://github.com/PhuongDaiThang)
+📂 **GitHub**: [PhuongDaiThang](https://github.com/PhuongDaiThang)
 
 ---
 🚀 **Happy Coding!** 🚀
