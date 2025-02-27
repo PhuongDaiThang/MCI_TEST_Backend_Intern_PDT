@@ -37,7 +37,7 @@ SECRET_KEY = 'django-insecure-158t80-j!khvja#x=xa$pc7hqi%c%!x)0ajxorjz@z(_jdms5q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", "False") == "True"
 
-ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "your-app-name.onrender.com").split(",")
+ALLOWED_HOSTS = ["test-pdt-mci-intern-be.onrender.com", "localhost", "127.0.0.1"]
 
 
 # Application definition
