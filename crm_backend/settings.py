@@ -62,9 +62,10 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
     'DEFAULT_PERMISSION_CLASSES': (
-        'rest_framework.permissions.IsAuthenticated',
+        'rest_framework.permissions.AllowAny',
     ),
 }
+
 
 
 SIMPLE_JWT = {
@@ -118,7 +119,7 @@ WSGI_APPLICATION = 'crm_backend.wsgi.application'
 #         'PORT': os.getenv('DB_PORT', '3306'),
 #     }
 # }
-import dj_database_url
+import dj_database_url # Sử dụng postgres 
 
 DATABASES = {
     'default': dj_database_url.config(default=os.getenv('DATABASE_URL'))
